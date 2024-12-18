@@ -1,0 +1,7 @@
+Apple, 1.50, 10
+Banana, 0.75, 15
+Orange, 1.25, 9
+Melon, 2.00, 17
+Mandarin, 0.50, 30
+Kiwi, 0.80, 25
+Watermelon, 5.00, 11
