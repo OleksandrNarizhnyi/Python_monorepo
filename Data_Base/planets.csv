@@ -1,0 +1,9 @@
+name,orderFromSun,hasRings,surfaceTemperatureC
+Mercury,1,false,67
+Earth,3,false,14
+Uranus,7,true,-197.2
+Jupiter,5,true,-145.15
+Mars,4,false,-63
+Neptune,8,true,-201
+Venus,2,false,464
+Saturn,6,true,-139.15
