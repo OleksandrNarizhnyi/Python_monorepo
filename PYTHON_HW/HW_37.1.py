@@ -20,14 +20,13 @@ try:
     connector = pymysql.connect(**dbconfig)
     cursor = connector.cursor()
 
-    tables = ["Users", "Products", "Sales"]
+    tables = {"Users", "Products", "Sales"}
     table_name = input("Enter table name (Users, Products or Sales): ").strip().capitalize()
 
 
     def info_from_tables(cursor, table):
-        query = f"SELECT * FROM {table}"
-        cursor.execute(query)
-        results = cursor.fetchall()
+        cursor.execute("SELECT * FROM %s", table)
+        results = cursor.fetchall() # [(...), (...), ... (...)]
         return results
 
     if table_name not in tables:
