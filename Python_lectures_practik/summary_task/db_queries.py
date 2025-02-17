@@ -36,7 +36,7 @@ class QueryHandler(DBConnection):
 
         field_name = input("Введите поле из выше перечисленных : ")
         if field_name not in columns:
-            print(f"Field '{field_name}' does not exist in table '{t_name}'.")
+            print(f"Поле - '{field_name}' не существует в таблице - '{t_name}'.")
             return []
 
         operator = input("Введите оператор сравнения ['>', '<', '=', '<=', '>=']: ")
