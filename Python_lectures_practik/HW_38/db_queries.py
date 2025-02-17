@@ -1,6 +1,6 @@
-from db_connection import DBConnection
+from db_connection import DBConnector
 
-class QueryHandler(DBConnection):
+class QueryHandler(DBConnector):
     def __init__(self, dbconfig):
         super().__init__(dbconfig)
 

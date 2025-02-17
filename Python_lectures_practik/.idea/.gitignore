@@ -6,3 +6,6 @@
 # Datasource local storage ignored files
 /dataSources/
 /dataSources.local.xml
+# Игнорировать файл dbconfig.py
+C:\Users\ICH\PycharmProjects\Python_monorepo\Python_lectures_practik\HW_38\dbconfig.py
+C:\Users\ICH\PycharmProjects\Python_monorepo\Python_lectures_practik\practicum_20\dbconfig.py
